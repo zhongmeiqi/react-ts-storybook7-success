@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="4" viewBox="0 0 24 4">
+    <defs>
+        <filter id="tab-underline_svg__a" width="102.2%" height="141.4%" x="-1.1%" y="-14.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <path id="tab-underline_svg__b" d="M0 .994H1871V102.341H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-429.000000, -80.000000)">
+        <path fill="#000" d="M0 0H1920V1080H0z"/>
+        <path fill="#FFF" d="M49 31.795H1920V1043.795H49z"/>
+        <g transform="translate(49.000000, 33.603327)">
+            <use xlink:href="#tab-underline_svg__b" fill="#000" filter="url(#tab-underline_svg__a)"/>
+            <use xlink:href="#tab-underline_svg__b" fill="#F4F8FA"/>
+        </g>
+        <path fill="#F4F8FA" d="M0 0H1870V49.68H0z" transform="translate(49.000000, 33.603327)"/>
+        <rect width="24" height="4" x="429" y="80" fill="#385CA7" rx="2"/>
+    </g>
+</svg>

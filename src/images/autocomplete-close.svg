@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
+    <defs>
+        <path id="autocomplete-close_svg__a" d="M10.8990826,1.15463195e-14 L12,1.10091743 L7.1,6 L12,10.8990826 L10.8990826,12 L6,7.1 L1.10091743,12 L2.29150032e-13,10.8990826 L4.899,6 L2.29150032e-13,1.10091743 L1.10091743,1.15463195e-14 L6,4.899 L10.8990826,1.15463195e-14 Z"/>
+    </defs>
+    <use xlink:href="#autocomplete-close_svg__a" fill="#B89785" transform="translate(-1366.000000, -484.000000) translate(842.000000, 242.000000) translate(24.000000, 76.000000) translate(0.000000, 155.898277) translate(96.000000, 0.000000) translate(404.000000, 10.101723)"/>
+</svg>

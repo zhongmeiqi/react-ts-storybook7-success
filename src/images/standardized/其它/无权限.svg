@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="95" viewBox="0 0 97 95">
+    <defs>
+        <linearGradient id="wqx_svg__a" x1="81.638%" x2="8.047%" y1="86.499%" y2="14.573%">
+            <stop offset="0%" stop-color="#EDEDF5"/>
+            <stop offset="100%" stop-color="#F5F5FA"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F5F5FB"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__f" x1="100%" x2="0%" y1="50.781%" y2="49.219%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__g" x1="100%" x2="0%" y1="52.14%" y2="47.86%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__h" x1="100%" x2="0%" y1="55.556%" y2="44.444%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__k" x1="51.296%" x2="51.296%" y1="0%" y2="169.731%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="48.993%" stop-color="#F4F4FA"/>
+            <stop offset="100%" stop-color="#E8E9F5"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__l" x1="0%" x2="80.917%" y1="-10.016%" y2="104.63%">
+            <stop offset="0%" stop-color="#DCDDE3"/>
+            <stop offset="100%" stop-color="#FDFDFE"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__o" x1="50%" x2="63.342%" y1="118.297%" y2="-6.256%">
+            <stop offset="0%" stop-color="#D9D9E4"/>
+            <stop offset="100%" stop-color="#EAEBF2"/>
+        </linearGradient>
+        <linearGradient id="wqx_svg__r" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F5F5FB"/>
+        </linearGradient>
+        <filter id="wqx_svg__c" width="132.6%" height="127.7%" x="-16.3%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8295808 0 0 0 0 0.8295808 0 0 0 0 0.89713807 0 0 0 0.426336969 0"/>
+        </filter>
+        <filter id="wqx_svg__i" width="145.9%" height="349.7%" x="-22.9%" y="-103.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.890196078 0 0 0 0 0.890196078 0 0 0 0 0.949019608 0 0 0 0.370110358 0"/>
+        </filter>
+        <filter id="wqx_svg__m" width="171.4%" height="171.4%" x="-35.7%" y="-32.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8832 0 0 0 0 0.8878 0 0 0 0 0.92 0 0 0 0.365432419 0"/>
+        </filter>
+        <filter id="wqx_svg__p" width="172.2%" height="172.2%" x="-36.1%" y="-24.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8295808 0 0 0 0 0.8295808 0 0 0 0 0.89713807 0 0 0 0.426336969 0"/>
+        </filter>
+        <path id="wqx_svg__d" d="M56.2790698,56.7906977 C56.2790698,61.3117263 52.6140519,64.9767442 48.0930233,64.9767442 L8.18604651,64.9767442 L8.18604651,8.18604651 C8.18604651,3.66501786 11.8510644,9.38746911e-13 16.372093,9.37916411e-13 L63.4418605,9.37916411e-13 L63.4418605,9.20930233 L56.2790698,9.20930233 L56.2790698,56.7906977 Z"/>
+        <path id="wqx_svg__j" d="M44,55.7674419 L44,58.8372093 C44,62.2279808 46.7487634,64.9767442 50.1395349,64.9767442 L50.1395349,64.9767442 L6.13953488,64.9767442 C2.7487634,64.9767442 -9.35471287e-15,62.2279808 -1.42108547e-14,58.8372093 L-1.42108547e-14,55.7674419 L44,55.7674419 Z"/>
+        <path id="wqx_svg__q" d="M69.5645282,49.980244 C71.0141697,52.0174831 71.8666667,54.5091859 71.8666667,57.2 C71.8666667,64.0851499 66.2851499,69.6666667 59.4,69.6666667 C56.7091859,69.6666667 54.2174831,68.8141697 52.180244,67.3645282 Z M59.4,44.7333333 C62.0047917,44.7333333 64.4229993,45.5321947 66.422986,46.8982806 L49.0982806,64.222986 C47.7321947,62.2229993 46.9333333,59.8047917 46.9333333,57.2 C46.9333333,50.3148501 52.5148501,44.7333333 59.4,44.7333333 Z"/>
+        <circle id="wqx_svg__b" cx="40.333" cy="40.333" r="40.333"/>
+        <circle id="wqx_svg__n" cx="59.4" cy="57.2" r="15.4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use xlink:href="#wqx_svg__b" fill="url(#wqx_svg__a)" transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(3.235981, 0.000000)"/>
+        <g transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)">
+            <use xlink:href="#wqx_svg__d" fill="#000" filter="url(#wqx_svg__c)"/>
+            <use xlink:href="#wqx_svg__d" fill="url(#wqx_svg__e)"/>
+        </g>
+        <path fill="url(#wqx_svg__f)" d="M15.345 12.623H50.545V17.023H15.345z" transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+        <path fill="url(#wqx_svg__g)" d="M15.459 26.323H36.726V30.723H15.459z" transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+        <path fill="url(#wqx_svg__h)" d="M15.016 40.124H28.216V44.524H15.016z" transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+        <g transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)">
+            <use xlink:href="#wqx_svg__j" fill="#000" filter="url(#wqx_svg__i)"/>
+            <use xlink:href="#wqx_svg__j" fill="url(#wqx_svg__k)"/>
+        </g>
+        <path fill="url(#wqx_svg__l)" d="M62.4186047,-7.10542736e-15 C65.8093761,-7.72830197e-15 68.5581395,2.7487634 68.5581395,6.13953488 L68.5581395,9.20930233 L68.5581395,9.20930233 L56.2790698,9.20930233 L56.2790698,6.13953488 C56.2790698,2.7487634 59.0278332,-6.48255274e-15 62.4186047,-7.10542736e-15 Z" transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000) translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+        <g transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000)">
+            <use xlink:href="#wqx_svg__n" fill="#000" filter="url(#wqx_svg__m)"/>
+            <use xlink:href="#wqx_svg__n" fill="url(#wqx_svg__o)"/>
+        </g>
+        <g transform="translate(-711.000000, -2450.000000) translate(720.000000, 2451.000000)">
+            <use xlink:href="#wqx_svg__q" fill="#000" filter="url(#wqx_svg__p)"/>
+            <use xlink:href="#wqx_svg__q" fill="url(#wqx_svg__r)"/>
+        </g>
+    </g>
+</svg>

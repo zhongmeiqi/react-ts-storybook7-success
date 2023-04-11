@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g fill="none" fill-rule="evenodd" stroke="#cc3d3d" transform="translate(0.500000, 0.500000)">
+        <circle cx="7.5" cy="7.5" r="7.5"/>
+        <path d="M7.3,3 L7.7,3 L7.7,12 L7.3,12 Z" transform="translate(7.500000, 7.500000) rotate(90.000000) translate(-7.500000, -7.500000)"/>
+    </g>
+</svg>

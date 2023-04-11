@@ -1,0 +1,60 @@
+// 公共图片目录路径
+$imagePath: '../../images';
+
+// antd 前缀
+$ant-prefix: gtw;
+$nav-width: 54px;
+$nav-height: 56px;
+$primary-color: #285cee;
+$secondary-color: #34315b;
+$button-color: #337bfc;
+$light-bg: #d3d3d3;
+$light-text: #c3c5d5;
+$lightest-text: #c2c4d2;
+$gray-text: #5a5e67;
+$gray-text-aside: #868b99;
+$text: #333;
+$text-weak: #9da1a9;
+$bg-color: #eee;
+$yellow: #d2a615;
+$green: #36c39d;
+$red: #e94445;
+$blue: #4086f0;
+$orange: orange;
+$lightblue: #08c;
+$dark-bg: #181527;
+$bg-hover: #34315b;
+$dim-bg: #383953;
+$table_bg: #191b1f;
+$transition-duration: 0.3s;
+$select_menu_bg_orange: rgb(51 32 40);
+$select_menu_bg_blue: rgb(32 41 71);
+$select_menu_bg_purple: rgb(28 27 53);
+$margin: 5px;
+$filter_bg: #3a3c5c;
+$filter_height: 40px;
+$filter_head_gb: #2b303a;
+$tick-th-height: 25px;
+$tick-buy-bg: #271a28;
+$tick-sell-bg: #1a1c36;
+$tick-bg: #1c1c2f;
+$tick-hover-bg: #271d42;
+$detail-modal-head-bg: #3a3c5c;
+$tab-height: 40px;
+$tab-item-height: 30px;
+$general-trade-bg: #181527;
+$button-color-green: #308b04;
+$button-color-red: #ed2107;
+$button-color-blue: #589afb;
+
+@mixin light-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,dadada+100 */
+    background: #eee; /* Old browsers */
+    background: linear-gradient(top, #eee 0%, #dadada 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #dadada)); /* Chrome,Safari4+ */
+    background: linear-gradient(top, #eee 0%, #dadada 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #eee 0%, #dadada 100%); /* Opera 11.10+ */
+    background: linear-gradient(top, #eee 0%, #dadada 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eee 0%, #dadada 100%); /* W3C */
+    filter: progid:dximagetransform.microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dadada',GradientType=0 ); /* IE6-9 */
+}

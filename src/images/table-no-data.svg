@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="121" viewBox="0 0 120 121">
+    <defs>
+        <linearGradient id="table-no-data_svg__c" x1="81.638%" x2="8.047%" y1="86.499%" y2="14.573%">
+            <stop offset="0%" stop-color="#EDEDF5"/>
+            <stop offset="100%" stop-color="#F5F5FA"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__g" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F5F5FB"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__h" x1="100%" x2="0%" y1="50.781%" y2="49.219%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__i" x1="100%" x2="0%" y1="52.14%" y2="47.86%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__j" x1="100%" x2="0%" y1="55.556%" y2="44.444%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__m" x1="51.296%" x2="51.296%" y1="0%" y2="169.731%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="48.993%" stop-color="#F4F4FA"/>
+            <stop offset="100%" stop-color="#E8E9F5"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__n" x1="0%" x2="80.917%" y1="-10.016%" y2="104.63%">
+            <stop offset="0%" stop-color="#DCDDE3"/>
+            <stop offset="100%" stop-color="#FDFDFE"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__p" x1="49.144%" x2="50%" y1="6.536%" y2="160.8%">
+            <stop offset="0%" stop-color="#C2C2C9"/>
+            <stop offset="100%" stop-color="#D7D7EC"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__q" x1="46.791%" x2="58%" y1="90.103%" y2="6.95%">
+            <stop offset="0%" stop-color="#E1E2E8"/>
+            <stop offset="100%" stop-color="#E6E6F0"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__r" x1="-42.589%" x2="485.067%" y1="48%" y2="74.068%">
+            <stop offset="0%" stop-color="#D3D3DB"/>
+            <stop offset="100%" stop-color="#D6D7DE"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__s" x1="50%" x2="63.342%" y1="118.297%" y2="-6.256%">
+            <stop offset="0%" stop-color="#D9D9E4"/>
+            <stop offset="100%" stop-color="#EAEBF2"/>
+        </linearGradient>
+        <linearGradient id="table-no-data_svg__t" x1="19.358%" x2="91.611%" y1="8.161%" y2="92.204%">
+            <stop offset="0%" stop-color="#F3F4F8"/>
+            <stop offset="44.251%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="table-no-data_svg__e" width="133.2%" height="128.2%" x="-16.6%" y="-9.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8295808 0 0 0 0 0.8295808 0 0 0 0 0.89713807 0 0 0 0.426336969 0"/>
+        </filter>
+        <filter id="table-no-data_svg__k" width="148.3%" height="362.8%" x="-24.1%" y="-107.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.890196078 0 0 0 0 0.890196078 0 0 0 0 0.949019608 0 0 0 0.370110358 0"/>
+        </filter>
+        <filter id="table-no-data_svg__o" width="182.7%" height="156.6%" x="-41.3%" y="-28.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.811764706 0 0 0 0 0.823529412 0 0 0 0 0.921568627 0 0 0 0.410729895 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="table-no-data_svg__a" d="M0 0H120V120H0z"/>
+        <path id="table-no-data_svg__f" d="M76.744186,77.4418605 C76.744186,83.6068995 71.7464344,88.6046512 65.5813953,88.6046512 L11.1627907,88.6046512 L11.1627907,11.1627907 C11.1627907,4.99775163 16.1605423,9.14179915e-13 22.3255814,9.09494702e-13 L86.5116279,9.09494702e-13 L86.5116279,12.5581395 L76.744186,12.5581395 L76.744186,77.4418605 Z"/>
+        <path id="table-no-data_svg__l" d="M60,76.0465116 L60,80.2325581 C60,84.8563374 63.7483137,88.6046512 68.372093,88.6046512 L68.372093,88.6046512 L8.37209302,88.6046512 C3.74831372,88.6046512 1.47771044e-14,84.8563374 1.42108547e-14,80.2325581 L1.42108547e-14,76.0465116 L60,76.0465116 Z"/>
+        <circle id="table-no-data_svg__d" cx="55" cy="55" r="55"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="table-no-data_svg__b" fill="#fff">
+            <use xlink:href="#table-no-data_svg__a"/>
+        </mask>
+        <g mask="url(#table-no-data_svg__b)">
+            <use xlink:href="#table-no-data_svg__d" fill="url(#table-no-data_svg__c)" transform="translate(0.377996, 3.790698) translate(4.412701, 0.000000)"/>
+            <g transform="translate(0.377996, 3.790698) translate(57.144771, 55.924313) rotate(16.000000) translate(-57.144771, -55.924313) translate(10.400585, 11.621987)">
+                <use xlink:href="#table-no-data_svg__f" fill="#000" filter="url(#table-no-data_svg__e)"/>
+                <use xlink:href="#table-no-data_svg__f" fill="url(#table-no-data_svg__g)"/>
+            </g>
+            <path fill="url(#table-no-data_svg__h)" d="M20.925 17.214H68.925V23.214H20.925z" transform="translate(0.377996, 3.790698) translate(57.144771, 55.924313) rotate(16.000000) translate(-57.144771, -55.924313) translate(10.400585, 11.621987)"/>
+            <path fill="url(#table-no-data_svg__i)" d="M21.08 35.895H50.08V41.895H21.08z" transform="translate(0.377996, 3.790698) translate(57.144771, 55.924313) rotate(16.000000) translate(-57.144771, -55.924313) translate(10.400585, 11.621987)"/>
+            <path fill="url(#table-no-data_svg__j)" d="M20.476 54.715H38.476V60.715H20.476z" transform="translate(0.377996, 3.790698) translate(57.144771, 55.924313) rotate(16.000000) translate(-57.144771, -55.924313) translate(10.400585, 11.621987)"/>
+            <g transform="translate(0.377996, 3.790698) translate(57.144771, 55.924313) rotate(16.000000) translate(-57.144771, -55.924313) translate(10.400585, 11.621987)">
+                <use xlink:href="#table-no-data_svg__l" fill="#000" filter="url(#table-no-data_svg__k)"/>
+                <use xlink:href="#table-no-data_svg__l" fill="url(#table-no-data_svg__m)"/>
+            </g>
+            <path fill="url(#table-no-data_svg__n)" d="M85.1162791,3.55271368e-15 C89.7400584,2.7033392e-15 93.4883721,3.74831372 93.4883721,8.37209302 L93.4883721,12.5581395 L93.4883721,12.5581395 L76.744186,12.5581395 L76.744186,8.37209302 C76.744186,3.74831372 80.4924998,4.40208816e-15 85.1162791,3.55271368e-15 Z" transform="translate(0.377996, 3.790698) translate(57.144771, 55.924313) rotate(16.000000) translate(-57.144771, -55.924313) translate(10.400585, 11.621987)"/>
+            <g filter="url(#table-no-data_svg__o)" transform="translate(0.377996, 3.790698) translate(38.622004, 28.139535) translate(46.578087, 44.698018) rotate(-51.000000) translate(-46.578087, -44.698018) translate(20.578087, 6.698018)">
+                <path fill="url(#table-no-data_svg__p)" d="M24.594 45.982H28.222V60.494H24.594z"/>
+                <rect width="9.07" height="22.674" x="21.873" y="52.331" fill="url(#table-no-data_svg__q)" rx="4.535"/>
+                <path fill="url(#table-no-data_svg__r)" d="M21.873 56.866H30.943V58.68H21.873z"/>
+                <path fill="url(#table-no-data_svg__s)" d="M12.015445,8.93335711 C21.3581592,1.36777634 35.0650405,2.80842762 42.6306213,12.1511418 C50.1962021,21.493856 48.7555508,35.2007373 39.4128366,42.766318 C30.0701224,50.3318988 16.3632411,48.8912475 8.79766035,39.5485334 C1.23207958,30.2058192 2.67273086,16.4989379 12.015445,8.93335711 Z M14.298561,11.7527705 C6.51296585,18.0574212 5.31242312,29.4798222 11.6170738,37.2654174 C17.9217244,45.0510125 29.3441255,46.2515553 37.1297206,39.9469046 C44.9153158,33.642254 46.1158585,22.2198529 39.8112079,14.4342578 C33.5065572,6.64866261 22.0841562,5.44811988 14.298561,11.7527705 Z"/>
+                <circle cx="25.714" cy="25.85" r="18.14" fill="url(#table-no-data_svg__t)" fill-opacity=".7" opacity=".796" transform="translate(25.714141, 25.849838) rotate(51.000000) translate(-25.714141, -25.849838)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-width="3" d="M32.9353575,9.91055031 C31.6691727,9.91055031 30.4487907,10.1066553 29.302927,10.4701498 M24.4599091,13.4154473 C22.2825586,15.5877916 20.9353575,18.5918431 20.9353575,21.9105503" transform="translate(26.935358, 15.910550) rotate(51.000000) translate(-26.935358, -15.910550)"/>
+            </g>
+        </g>
+    </g>
+</svg>

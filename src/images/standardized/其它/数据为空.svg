@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+    <defs>
+        <linearGradient id="sjwk_svg__c" x1="81.638%" x2="8.047%" y1="86.499%" y2="14.573%">
+            <stop offset="0%" stop-color="#EDEDF5"/>
+            <stop offset="100%" stop-color="#F5F5FA"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__g" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F5F5FB"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__h" x1="100%" x2="0%" y1="50.781%" y2="49.219%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__i" x1="100%" x2="0%" y1="52.14%" y2="47.86%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__j" x1="100%" x2="0%" y1="55.556%" y2="44.444%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__m" x1="51.296%" x2="51.296%" y1="0%" y2="169.731%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="48.993%" stop-color="#F4F4FA"/>
+            <stop offset="100%" stop-color="#E8E9F5"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__n" x1="0%" x2="80.917%" y1="-10.016%" y2="104.63%">
+            <stop offset="0%" stop-color="#DCDDE3"/>
+            <stop offset="100%" stop-color="#FDFDFE"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__p" x1="49.144%" x2="50%" y1="6.536%" y2="160.8%">
+            <stop offset="0%" stop-color="#C2C2C9"/>
+            <stop offset="100%" stop-color="#D7D7EC"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__q" x1="46.791%" x2="58%" y1="90.103%" y2="6.95%">
+            <stop offset="0%" stop-color="#E1E2E8"/>
+            <stop offset="100%" stop-color="#E6E6F0"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__r" x1="-42.589%" x2="485.067%" y1="48%" y2="74.068%">
+            <stop offset="0%" stop-color="#D3D3DB"/>
+            <stop offset="100%" stop-color="#D6D7DE"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__s" x1="50%" x2="63.342%" y1="118.297%" y2="-6.256%">
+            <stop offset="0%" stop-color="#D9D9E4"/>
+            <stop offset="100%" stop-color="#EAEBF2"/>
+        </linearGradient>
+        <linearGradient id="sjwk_svg__t" x1="19.358%" x2="91.611%" y1="8.161%" y2="92.204%">
+            <stop offset="0%" stop-color="#F3F4F8"/>
+            <stop offset="44.251%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="sjwk_svg__e" width="132.6%" height="127.7%" x="-16.3%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8295808 0 0 0 0 0.8295808 0 0 0 0 0.89713807 0 0 0 0.426336969 0"/>
+        </filter>
+        <filter id="sjwk_svg__k" width="145.9%" height="349.7%" x="-22.9%" y="-103.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.890196078 0 0 0 0 0.890196078 0 0 0 0 0.949019608 0 0 0 0.370110358 0"/>
+        </filter>
+        <filter id="sjwk_svg__o" width="185.5%" height="158.4%" x="-42.8%" y="-29.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.811764706 0 0 0 0 0.823529412 0 0 0 0 0.921568627 0 0 0 0.410729895 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="sjwk_svg__a" d="M0 0H88V88H0z"/>
+        <path id="sjwk_svg__f" d="M56.2790698,56.7906977 C56.2790698,61.3117263 52.6140519,64.9767442 48.0930233,64.9767442 L8.18604651,64.9767442 L8.18604651,8.18604651 C8.18604651,3.66501786 11.8510644,1.02401204e-12 16.372093,1.02318154e-12 L63.4418605,1.02318154e-12 L63.4418605,9.20930233 L56.2790698,9.20930233 L56.2790698,56.7906977 Z"/>
+        <path id="sjwk_svg__l" d="M44,55.7674419 L44,58.8372093 C44,62.2279808 46.7487634,64.9767442 50.1395349,64.9767442 L50.1395349,64.9767442 L6.13953488,64.9767442 C2.7487634,64.9767442 4.85614184e-15,62.2279808 0,58.8372093 L0,55.7674419 L44,55.7674419 Z"/>
+        <circle id="sjwk_svg__d" cx="40.333" cy="40.333" r="40.333"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-592.000000, -2451.000000) translate(592.000000, 2451.000000)">
+        <mask id="sjwk_svg__b" fill="#fff">
+            <use xlink:href="#sjwk_svg__a"/>
+        </mask>
+        <g mask="url(#sjwk_svg__b)">
+            <use xlink:href="#sjwk_svg__d" fill="url(#sjwk_svg__c)" transform="translate(0.277197, 2.779845) translate(3.235981, 0.000000)"/>
+            <g transform="translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)">
+                <use xlink:href="#sjwk_svg__f" fill="#000" filter="url(#sjwk_svg__e)"/>
+                <use xlink:href="#sjwk_svg__f" fill="url(#sjwk_svg__g)"/>
+            </g>
+            <path fill="url(#sjwk_svg__h)" d="M15.345 12.623H50.545V17.023H15.345z" transform="translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+            <path fill="url(#sjwk_svg__i)" d="M15.459 26.323H36.726V30.723H15.459z" transform="translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+            <path fill="url(#sjwk_svg__j)" d="M15.016 40.124H28.216V44.524H15.016z" transform="translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+            <g transform="translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)">
+                <use xlink:href="#sjwk_svg__l" fill="#000" filter="url(#sjwk_svg__k)"/>
+                <use xlink:href="#sjwk_svg__l" fill="url(#sjwk_svg__m)"/>
+            </g>
+            <path fill="url(#sjwk_svg__n)" d="M62.4186047,1.13686838e-13 C65.8093761,1.13063963e-13 68.5581395,2.7487634 68.5581395,6.13953488 L68.5581395,9.20930233 L68.5581395,9.20930233 L56.2790698,9.20930233 L56.2790698,6.13953488 C56.2790698,2.7487634 59.0278332,1.14309712e-13 62.4186047,1.13686838e-13 Z" transform="translate(0.277197, 2.779845) translate(41.906166, 41.011163) rotate(16.000000) translate(-41.906166, -41.011163) translate(7.627096, 8.522791)"/>
+            <g filter="url(#sjwk_svg__o)" transform="translate(0.277197, 2.779845) translate(29.109714, 21.655834) translate(33.051042, 31.769542) rotate(-51.000000) translate(-33.051042, -31.769542) translate(14.341767, 4.391270)">
+                <path fill="url(#sjwk_svg__p)" d="M17.888 33.473H20.548000000000002V44.114999999999995H17.888z"/>
+                <rect width="6.651" height="16.628" x="15.892" y="38.129" fill="url(#sjwk_svg__q)" rx="3.326"/>
+                <path fill="url(#sjwk_svg__r)" d="M15.892 41.454H22.543V42.784H15.892z"/>
+                <path fill="url(#sjwk_svg__s)" d="M8.66356413,6.30385536 C15.5148879,0.755762798 25.5666008,1.8122404 31.1146934,8.66356413 C36.6627859,15.5148879 35.6063083,25.5666008 28.7549846,31.1146934 C21.9036609,36.6627859 11.8519479,35.6063083 6.30385536,28.7549846 C0.755762798,21.9036609 1.8122404,11.8519479 8.66356413,6.30385536 Z M10.3378492,8.3714252 C4.62841273,12.9948357 3.74801473,21.3712631 8.3714252,27.0806996 C12.9948357,32.790136 21.3712631,33.670534 27.0806996,29.0471235 C32.790136,24.4237131 33.670534,16.0472856 29.0471235,10.3378492 C24.4237131,4.62841273 16.0472856,3.74801473 10.3378492,8.3714252 Z"/>
+                <circle cx="18.709" cy="18.709" r="13.302" fill="url(#sjwk_svg__t)" fill-opacity=".7" opacity=".796" transform="translate(18.709274, 18.709274) rotate(51.000000) translate(-18.709274, -18.709274)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-width="2.2" d="M24.0048333,7.0204637 C23.0762978,7.0204637 22.1813509,7.16427407 21.3410509,7.43083666 M17.7895045,9.59072147 C16.1927807,11.183774 15.2048333,13.3867451 15.2048333,15.8204637" transform="translate(19.604833, 11.420464) rotate(51.000000) translate(-19.604833, -11.420464)"/>
+            </g>
+        </g>
+    </g>
+</svg>

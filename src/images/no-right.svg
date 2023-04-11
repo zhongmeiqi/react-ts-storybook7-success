@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <linearGradient id="no-right_svg__a" x1="81.638%" x2="8.047%" y1="86.499%" y2="14.573%">
+            <stop offset="0%" stop-color="#EDEDF5"/>
+            <stop offset="100%" stop-color="#F5F5FA"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F5F5FB"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__f" x1="100%" x2="0%" y1="50.781%" y2="49.219%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__g" x1="100%" x2="0%" y1="52.14%" y2="47.86%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__h" x1="100%" x2="0%" y1="55.556%" y2="44.444%">
+            <stop offset="0%" stop-color="#EBEBF5"/>
+            <stop offset="100%" stop-color="#EDEEF2"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__k" x1="51.296%" x2="51.296%" y1="0%" y2="169.731%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="48.993%" stop-color="#F4F4FA"/>
+            <stop offset="100%" stop-color="#E8E9F5"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__l" x1="0%" x2="80.917%" y1="-10.016%" y2="104.63%">
+            <stop offset="0%" stop-color="#DCDDE3"/>
+            <stop offset="100%" stop-color="#FDFDFE"/>
+            ∏
+        </linearGradient>
+        <linearGradient id="no-right_svg__o" x1="50%" x2="63.342%" y1="118.297%" y2="-6.256%">
+            <stop offset="0%" stop-color="#D9D9E4"/>
+            <stop offset="100%" stop-color="#EAEBF2"/>
+        </linearGradient>
+        <linearGradient id="no-right_svg__r" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F5F5FB"/>
+        </linearGradient>
+        <filter id="no-right_svg__c" width="133.2%" height="128.2%" x="-16.6%" y="-9.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8295808 0 0 0 0 0.8295808 0 0 0 0 0.89713807 0 0 0 0.426336969 0"/>
+        </filter>
+        <filter id="no-right_svg__i" width="148.3%" height="362.8%" x="-24.1%" y="-107.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.890196078 0 0 0 0 0.890196078 0 0 0 0 0.949019608 0 0 0 0.370110358 0"/>
+        </filter>
+        <filter id="no-right_svg__m" width="169%" height="169%" x="-34.5%" y="-29.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8832 0 0 0 0 0.8878 0 0 0 0 0.92 0 0 0 0.365432419 0"/>
+        </filter>
+        <filter id="no-right_svg__p" width="173.5%" height="173.5%" x="-36.8%" y="-25%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.8295808 0 0 0 0 0.8295808 0 0 0 0 0.89713807 0 0 0 0.426336969 0"/>
+        </filter>
+        <path id="no-right_svg__d" d="M76.744186,77.4418605 C76.744186,83.6068995 71.7464344,88.6046512 65.5813953,88.6046512 L11.1627907,88.6046512 L11.1627907,11.1627907 C11.1627907,4.99775163 16.1605423,1.82367462e-12 22.3255814,1.8189894e-12 L86.5116279,1.8189894e-12 L86.5116279,12.5581395 L76.744186,12.5581395 L76.744186,77.4418605 Z"/>
+        <path id="no-right_svg__j" d="M60,76.0465116 L60,80.2325581 C60,84.8563374 63.7483137,88.6046512 68.372093,88.6046512 L68.372093,88.6046512 L8.37209302,88.6046512 C3.74831372,88.6046512 1.81955565e-12,84.8563374 1.8189894e-12,80.2325581 L1.8189894e-12,76.0465116 L60,76.0465116 Z"/>
+        <path id="no-right_svg__q" d="M94.8608655,68.1550823 C96.8375611,70.9330979 98,74.3307979 98,78 C98,87.3888407 90.3888407,95 81,95 C77.3307979,95 73.9330979,93.8375611 71.1550823,91.8608655 Z M81,61 C84.552651,61 87.8507743,62.0897627 90.5783246,63.953243 L66.953243,87.5783246 C65.0897627,84.8507743 64,81.552651 64,78 C64,68.6111593 71.6111593,61 81,61 Z"/>
+        <circle id="no-right_svg__b" cx="55" cy="55" r="55"/>
+        <circle id="no-right_svg__n" cx="81" cy="78" r="21"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use xlink:href="#no-right_svg__b" fill="url(#no-right_svg__a)" transform="translate(0.000000, 3.000000) translate(4.790698, 0.790698)"/>
+        <g transform="translate(0.000000, 3.000000) translate(57.714186, 56.975539) rotate(16.000000) translate(-57.714186, -56.975539) translate(10.714186, 12.475539)">
+            <use xlink:href="#no-right_svg__d" fill="#000" filter="url(#no-right_svg__c)"/>
+            <use xlink:href="#no-right_svg__d" fill="url(#no-right_svg__e)"/>
+        </g>
+        <path fill="url(#no-right_svg__f)" d="M20.925 17.214H68.925V23.214H20.925z" transform="translate(0.000000, 3.000000) translate(57.714186, 56.975539) rotate(16.000000) translate(-57.714186, -56.975539) translate(10.714186, 12.475539)"/>
+        <path fill="url(#no-right_svg__g)" d="M21.08 35.895H50.08V41.895H21.08z" transform="translate(0.000000, 3.000000) translate(57.714186, 56.975539) rotate(16.000000) translate(-57.714186, -56.975539) translate(10.714186, 12.475539)"/>
+        <path fill="url(#no-right_svg__h)" d="M20.476 54.715H38.476V60.715H20.476z" transform="translate(0.000000, 3.000000) translate(57.714186, 56.975539) rotate(16.000000) translate(-57.714186, -56.975539) translate(10.714186, 12.475539)"/>
+        <g transform="translate(0.000000, 3.000000) translate(57.714186, 56.975539) rotate(16.000000) translate(-57.714186, -56.975539) translate(10.714186, 12.475539)">
+            <use xlink:href="#no-right_svg__j" fill="#000" filter="url(#no-right_svg__i)"/>
+            <use xlink:href="#no-right_svg__j" fill="url(#no-right_svg__k)"/>
+        </g>
+        <path fill="url(#no-right_svg__l)" d="M85.1162791,9.09494702e-13 C89.7400584,9.08645327e-13 93.4883721,3.74831372 93.4883721,8.37209302 L93.4883721,12.5581395 L93.4883721,12.5581395 L76.744186,12.5581395 L76.744186,8.37209302 C76.744186,3.74831372 80.4924998,9.10344076e-13 85.1162791,9.09494702e-13 Z" transform="translate(0.000000, 3.000000) translate(57.714186, 56.975539) rotate(16.000000) translate(-57.714186, -56.975539) translate(10.714186, 12.475539)"/>
+        <use xlink:href="#no-right_svg__n" fill="#000" filter="url(#no-right_svg__m)"/>
+        <use xlink:href="#no-right_svg__n" fill="url(#no-right_svg__o)"/>
+        <use xlink:href="#no-right_svg__q" fill="#000" filter="url(#no-right_svg__p)"/>
+        <use xlink:href="#no-right_svg__q" fill="url(#no-right_svg__r)"/>
+    </g>
+</svg>

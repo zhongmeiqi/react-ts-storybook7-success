@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266" height="40" viewBox="0 0 266 40">
+    <defs>
+        <linearGradient id="login-submit-btn_svg__b" x1="0%" x2="100%" y1="50.538%" y2="49.485%">
+            <stop offset="0%" stop-color="#F2D2B9"/>
+            <stop offset="100%" stop-color="#DCB18C"/>
+        </linearGradient>
+        <linearGradient id="login-submit-btn_svg__c" x1="0%" x2="100%" y1="65.67%" y2="34.996%">
+            <stop offset="0%" stop-color="#F2D2B9"/>
+            <stop offset="100%" stop-color="#DCB18C"/>
+        </linearGradient>
+        <linearGradient id="login-submit-btn_svg__e" x1="0%" x2="100%" y1="37.451%" y2="41.252%">
+            <stop offset="0%" stop-color="#F2D2B9" stop-opacity=".618"/>
+            <stop offset="100%" stop-color="#DCB18C" stop-opacity="0"/>
+        </linearGradient>
+        <rect id="login-submit-btn_svg__a" width="266" height="40" x="0" y="0" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-619.000000, -484.000000) translate(619.000000, 484.000000)">
+        <mask id="login-submit-btn_svg__d" fill="#fff">
+            <use xlink:href="#login-submit-btn_svg__a"/>
+        </mask>
+        <use xlink:href="#login-submit-btn_svg__a" fill="url(#login-submit-btn_svg__b)" fill-rule="nonzero"/>
+        <path fill="url(#login-submit-btn_svg__c)" d="M0-3 27.9698623-3 69 43.9472398 0 53z" mask="url(#login-submit-btn_svg__d)" opacity=".275"/>
+        <path fill="url(#login-submit-btn_svg__e)" d="M174.522496-2.58729349 234.25219-5.35096975 267.522496 39.3298849 174.522496 47.4127065z" mask="url(#login-submit-btn_svg__d)" opacity=".724" transform="translate(221.022496, 21.030868) scale(1, -1) rotate(-55.000000) translate(-221.022496, -21.030868)"/>
+    </g>
+</svg>
