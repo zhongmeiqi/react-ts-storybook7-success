@@ -1,0 +1,124 @@
+@use 'sass:map';
+
+$font-family: -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', 'PingFang SC', 'Lantinghei SC', SimHei, sans-serif;
+
+$font-weight-values: (
+    thin: 100,
+    light: 300,
+    regular: 400,
+    medium: 500,
+    bold: 700,
+    black: 900,
+) !default;
+
+@forward '@material/typography' with (
+    $font-family: $font-family,
+    $styles-headline1: (
+        font-size: 28px,
+        line-height: 40px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-headline2: (
+        font-size: 20px,
+        line-height: 28px,
+        font-weight: map.get($font-weight-values, regular),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-headline3: (
+        font-size: 20px,
+        line-height: 28px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-headline4: (
+        font-size: 18px,
+        line-height: 26px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-headline5: (
+        font-size: 16px,
+        line-height: 24px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-headline6: (
+        font-size: 16px,
+        line-height: 24px,
+        font-weight: map.get($font-weight-values, regular),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-subtitle1: (
+        font-size: 14px,
+        line-height: 22px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-subtitle2: (
+        font-size: 12px,
+        line-height: 18px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-body1: (
+        font-size: 14px,
+        line-height: 22px,
+        font-weight: map.get($font-weight-values, regular),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-body2: (
+        font-size: 12px,
+        line-height: 14px,
+        font-weight: map.get($font-weight-values, regular),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-caption: (
+        font-size: 12px,
+        line-height: 18px,
+        font-weight: map.get($font-weight-values, regular),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-button: (
+        font-size: 16px,
+        line-height: 24px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    ),
+    $styles-overline: (
+        font-size: 12px,
+        line-height: 12px,
+        font-weight: map.get($font-weight-values, medium),
+        letter-spacing: 0,
+        text-decoration: inherit,
+        text-transform: inherit,
+    )
+);
+
+@mixin fontFamily {
+    font-family: $font-family;
+}

@@ -1,5 +1,7 @@
 import type { StorybookConfig } from "@storybook/react-vite";
-const config: StorybookConfig = {
+const { mergeConfig } = require("vite");
+import path from "path";
+module.exports = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-links",
@@ -13,5 +15,23 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
+  core: { builder: "@storybook/builder-vite" },
+  async viteFinal(config, { configType }) {
+    const customConfig = {
+      alias: {
+        "@root": path.resolve(__dirname, "src"),
+        // hippo: path.resolve("src/shared"),
+      },
+    };
+    return { ...config, ...customConfig };
+    // return mergeConfig(config, {
+    //   resolve: {
+    //     alias: {
+    //       "@root": path.resolve("src"),
+    //       // hippo: path.resolve("src/shared"),
+    //     },
+    //   },
+    // });
+  },
 };
-export default config;
+

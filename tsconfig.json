@@ -17,9 +17,12 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {"@root/*": ["src/*"],
-    "@root/shared/*": ["src/shared/*"],}
-
+    "@root/shared/*": ["src/shared/*"],},
+    "typeRoots": ["./typings", "./node_modules/@types"]
   },
   "include": ["src"],
+  "files": [
+    "custom.d.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

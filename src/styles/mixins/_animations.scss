@@ -1,0 +1,11 @@
+@use '@material/animation';
+
+@mixin infinite-spin {
+    @keyframes clockwise-rotation {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    animation: clockwise-rotation 1s infinite linear;
+}

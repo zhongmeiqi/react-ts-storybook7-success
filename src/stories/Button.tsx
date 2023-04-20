@@ -1,6 +1,6 @@
 import React from "react";
-import "./button.scss";
-import reactLogo from "../assets/react.svg";
+// import "./button.scss";
+import "@root/stories/button.scss";
 
 interface ButtonProps {
   /**
@@ -48,7 +48,6 @@ export const Button = ({
       {...props}
     >
       {label}
-      <reactLogo />
       {/* <img src={reactLogo} className="logo react" alt="React logo" /> */}
     </button>
   );

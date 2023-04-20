@@ -1,0 +1,61 @@
+// 栅格布局
+// @see http://jira.gf.com.cn/browse/JGCPS-29125
+
+$spacing: 10px;
+$large-span: 40px;
+$small-span: 32px;
+
+@function calLarge($a, $b) {
+    @return $large-span * $a + $spacing * $b;
+}
+
+@function calSmall($a, $b) {
+    @return $small-span * $a + $spacing * $b;
+}
+
+@mixin large {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin small {
+    @media screen and (max-width: 1439px) {
+        @content;
+    }
+}
+
+@mixin gtw-media($a, $b) {
+    @include large {
+        width: calLarge($a, $b);
+        max-width: calLarge($a, $b);
+    }
+    @include small {
+        width: calSmall($a, $b);
+        min-width: calSmall($a, $b);
+    }
+}
+
+@mixin wrapper {
+    @include gtw-media(24, 23);
+}
+
+@mixin quarter {
+    @include gtw-media(6, 5);
+}
+
+@mixin quarter-content {
+    @include gtw-media(18, 17);
+}
+
+@mixin third {
+    @include gtw-media(8, 7);
+}
+
+@mixin third-content {
+    @include gtw-media(16, 15);
+}
+
+@mixin half {
+    @include gtw-media(12, 11);
+}

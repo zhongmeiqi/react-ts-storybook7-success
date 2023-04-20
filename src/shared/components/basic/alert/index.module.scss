@@ -1,0 +1,71 @@
+@use 'src/styles/mixins/theme';
+
+.alert {
+    display: flex;
+    align-items: baseline; // icon 和第一行文字对齐
+    line-height: 22px;
+    box-sizing: content-box;
+    padding-left: 20px;
+    $root: &;
+
+    &--left {
+        flex-direction: row;
+    }
+
+    &--right {
+        flex-direction: row-reverse;
+    }
+
+    &--mini {
+        font-size: 12px;
+    }
+
+    &--normal {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    &__icon {
+        display: inline-block;
+        height: 14px;
+        width: 14px;
+        margin-right: 5px;
+        flex: 0 0 14px;
+        transform: translateY(2px); // align-items: baseline 还是不能对齐, 微调一下位置
+    }
+
+    &--info {
+        background: #f4f8fc;
+        color: #6483c4;
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, info);
+            }
+        }
+    }
+
+    &--warn,
+    &--success {
+        background: #fdf8f3;
+        color: #cf7e34;
+    }
+
+    &--error,
+    &--forbid {
+        background: #ffebeb;
+        color: #cc3d3d;
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, error);
+            }
+        }
+    }
+
+    &--no-background {
+        padding-left: 0;
+        background: none;
+        line-height: 22px;
+    }
+}

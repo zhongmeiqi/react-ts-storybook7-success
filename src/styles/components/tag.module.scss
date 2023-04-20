@@ -1,0 +1,62 @@
+@use '../mixins/theme';
+@use '../mixins/typography';
+
+.tag {
+    padding: 0px 7px;
+    background-clip: border-box;
+    @include typography.typography('caption');
+    border: 1px solid transparent;
+    display: inline-block;
+    flex: 0 0 auto;
+    color: #815035;
+    border-color: #faeade;
+
+    &--white,
+    &--orgsharelbl,
+    &--feeCalc-type {
+        background-image: linear-gradient(270deg, #ffe4c9 0%, #fbebdc 100%);
+        @include theme.property(color, 'button-text');
+        font-weight: 400;
+    }
+
+    &--not-on-counter {
+        @include theme.property(color, 'error');
+        @include theme.property(border-color, 'error');
+
+        font-weight: 400;
+    }
+
+    &--not-available {
+        @include theme.property(color, 'error');
+        @include theme.property(border-color, 'error');
+
+        font-weight: 400;
+    }
+
+    &--expired {
+        @include theme.property(color, 'error');
+        background-color: rgba(204, 61, 61, 0.08);
+        padding: 0 9px;
+        border-color: transparent;
+    }
+
+    &--sign {
+        @include theme.property(color, 'link-text');
+        background-color: rgba(204, 61, 61, 0.08);
+        padding: 0 9px;
+        border-color: transparent;
+    }
+
+    &--nosign {
+        @include theme.property(color, 'info');
+        background-color: rgba(100, 131, 196, 0.08);
+        padding: 0 9px;
+        border-color: transparent;
+    }
+
+    margin: 0 8px 0 0;
+
+    &:last-of-type {
+        margin: 0;
+    }
+}

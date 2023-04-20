@@ -1,0 +1,129 @@
+@use '@material/theme';
+@use '@material/theme/custom-properties';
+@use '../variables';
+@use 'sass:map';
+@use 'sass:color';
+@use 'sass:string';
+@use 'sass:list';
+@use 'sass:math';
+
+$prefix: --gtw;
+$button-text: #612d10;
+$link-text: #cf7e34;
+$active: #e19c5d;
+$primary: #e9c39e;
+$hover-background: #f9f0e6;
+$thirdary-level-tab-background: #fcf8f4;
+$dropdown: #b89785;
+$secondary-level-button: #804f2b;
+$title-text: #111;
+$primary-text: #333;
+$remark-text: #666;
+$secondary-text: #999;
+$tips-text: #b3b3b3;
+$inactive-text: #d4d4d4;
+$clear-icon: #d6d6d6;
+$disabled-bg: #f7f8fa;
+$input-border: #d9d9d9;
+$split-line: #e8e8e8;
+$page-background: #f5f6f8;
+$table-head-background: #fafafa;
+$table-hover: #f4f6f8;
+$text-background: #fff;
+$success: #e6b073;
+$error: #cc3d3d;
+$info: #6483c4;
+$green: #00b257;
+$delete-line: #d24747;
+$red: #eb5757;
+$yellow: #a15008;
+$blue1: #589afb;
+$blue3: #5483c4;
+$white1: #f1f1f1;
+$controlled-tab-background: #fbf8f3;
+$controlled-tab-text-color: #9c7864;
+
+$list: 4, 8, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90;
+
+$using: (
+    'button-text': $button-text,
+    'link-text': $link-text,
+    'active': $active,
+    'primary': $primary,
+    'hover-background': $hover-background,
+    'thirdary-level-tab-background': $thirdary-level-tab-background,
+    'dropdown': $dropdown,
+    'secondary-level-button': $secondary-level-button,
+    'title-text': $title-text,
+    'primary-text': $primary-text,
+    'remark-text': $remark-text,
+    'secondary-text': $secondary-text,
+    'tips-text': $tips-text,
+    'inactive-text': $inactive-text,
+    'input-border': $input-border,
+    'split-line': $split-line,
+    'page-background': $page-background,
+    'table-head-background': $table-head-background,
+    'table-hover': $table-hover,
+    'text-background': $text-background,
+    'success': $success,
+    'error': $error,
+    'info': $info,
+    'green': $green,
+    'delete-line': $delete-line,
+    'red': $red,
+    'yellow': $yellow,
+    'blue1': $blue1,
+    'blue3': $blue3,
+    'clear-icon': $clear-icon,
+    'disabled-bg': $disabled-bg,
+    'tab-like-bubble-hover-background': $white1,
+    'controlled-tab-border-color': $primary,
+    'controlled-tab-background': $controlled-tab-background,
+    'controlled-tab-text-color': $controlled-tab-text-color,
+);
+
+@function get-custom-property($name, $alpha: null) {
+    @if list.index($list, $alpha) {
+        @return custom-properties.create(
+            #{$prefix}-#{$name}-#{$alpha},
+            rgba(map.get($using, $name), math.percentage(math.div($alpha, 100)))
+        );
+    }
+    @return custom-properties.create(#{$prefix}-#{$name}, map.get($using, $name));
+}
+
+@mixin property($property, $name, $alpha: null, $important: false) {
+    @include theme.property($property, get-custom-property($name, $alpha), $important: $important);
+}
+
+@mixin define($map, $alpha-list: $list) {
+    @each $name in map.keys($map) {
+        @include custom-properties.declaration(get-custom-property($name));
+        @if $alpha-list {
+            @each $alpha in $alpha-list {
+                @include custom-properties.declaration(get-custom-property($name, $alpha));
+            }
+        } @else {
+            @each $alpha in $list {
+                @include custom-properties.declaration(get-custom-property($name, $alpha));
+            }
+        }
+    }
+}
+
+@mixin core-styles {
+    @each $key in map.keys($using) {
+        .#{variables.$ant-prefix}-theme--text-#{$key} {
+            @include property(color, $key, $important: true);
+        }
+
+        .#{variables.$ant-prefix}-theme--background-#{$key} {
+            @include property(background-color, $key, $important: true);
+        }
+
+        .#{variables.$ant-prefix}-theme--border-#{$key} {
+            @include property(border-color, $key, $important: true);
+        }
+    }
+}

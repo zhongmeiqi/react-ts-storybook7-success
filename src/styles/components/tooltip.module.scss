@@ -1,0 +1,49 @@
+@use '../mixins/theme';
+@use '../mixins/typography';
+
+.tooltip {
+    @include typography.typography('body1');
+    padding: 4px 8px;
+    box-sizing: border-box;
+    max-width: 360px;
+    border-radius: 2px;
+    z-index: 5050;
+    border: none;
+
+    $root: &;
+
+    &--light {
+        @include theme.property(color, title-text);
+        @include theme.property(background-color, text-background);
+        box-shadow: rgba(#666, 0.2) 0 2px 8px 0;
+
+        :global {
+            .fill {
+                fill: #fff;
+                stroke: #fff;
+            }
+            .stroke {
+                fill: #fff;
+                stroke: #fff;
+            }
+        }
+    }
+
+    &--dark {
+        @include theme.property(color, text-background);
+        background-color: rgba(#000, 0.6);
+
+        svg {
+            opacity: 0.6;
+        }
+
+        :global {
+            .fill {
+                fill: #000;
+            }
+            .stroke {
+                stroke: #000;
+            }
+        }
+    }
+}
