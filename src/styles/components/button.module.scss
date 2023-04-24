@@ -1,0 +1,220 @@
+@use '../mixins/theme';
+@use '../mixins/typography';
+
+@mixin secondary-level-button-bg-states($root) {
+    @include theme.property(background-color, 'text-background');
+    &:hover:not(#{$root}--disabled-on-appearance) {
+        @include theme.property(background-color, 'secondary-level-button', $alpha: 4);
+    }
+
+    &:active:not(#{$root}--disabled-on-appearance) {
+        @include theme.property(background-color, 'secondary-level-button', $alpha: 8);
+    }
+
+    &:disabled {
+        @include theme.property(background-color, 'text-background');
+        opacity: 0.4;
+    }
+}
+
+.button {
+    box-sizing: border-box;
+    padding: 4px 8px;
+    background-origin: border-box;
+    background-clip: border-box;
+    margin: 0;
+    outline: none;
+    min-width: 76px;
+    border: 1px solid transparent;
+    width: auto;
+    border-radius: 2px;
+    white-space: nowrap;
+    cursor: pointer;
+    $root: &;
+    @include theme.property(background-color, 'text-background');
+    @include theme.property(color, 'link-text');
+
+    &:hover:not(#{$root}--disabled-on-appearance) {
+        @include theme.property(background-color, 'table-head-background');
+    }
+
+    &:active:not(#{$root}--disabled-on-appearance) {
+        @include theme.property(background-color, 'page-background');
+    }
+
+    &:disabled {
+        @include theme.property(background-color, 'text-background');
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    &--text {
+        padding: 0;
+        display: inline-block;
+        min-width: initial;
+        border: none;
+        background-color: transparent;
+
+        &:hover {
+            text-decoration: underline;
+            background-color: transparent !important;
+        }
+    }
+
+    @include typography.typography('body1');
+    &--primary {
+        @include theme.property(color, 'button-text');
+        background-image: linear-gradient(-45deg, #e0b794 0%, #f5d7bc 100%);
+
+        &:hover:not(#{$root}--disabled-on-appearance) {
+            background-image: linear-gradient(-45deg, #cb9b72 0%, #ddb592 100%);
+            @include theme.property(color, 'button-text');
+        }
+
+        &:active:not(#{$root}--disabled-on-appearance) {
+            background-image: linear-gradient(-45deg, #cb9b72 0%, #ddb592 100%);
+        }
+
+        &:disabled {
+            background-image: linear-gradient(-45deg, #e0b794 0%, #f5d7bc 100%);
+            opacity: 0.4;
+        }
+    }
+
+    &--secondary {
+        @include theme.property(color, 'primary-text');
+        @include theme.property(border-color, 'input-border');
+        @include theme.property(background-color, 'text-background');
+        &:hover:not(#{$root}--disabled-on-appearance) {
+            @include theme.property(background-color, 'table-head-background');
+        }
+
+        &:active:not(#{$root}--disabled-on-appearance) {
+            @include theme.property(background-color, 'page-background');
+        }
+
+        &:disabled {
+            @include theme.property(background-color, 'text-background');
+            opacity: 0.4;
+        }
+    }
+
+    &--thirdary {
+        background-image: linear-gradient(270deg, rgba(255, 228, 201, 1) 0%, rgba(251, 235, 220, 1) 100%);
+        @include theme.property(color, 'button-text');
+
+        &:hover:not(#{$root}--disabled-on-appearance) {
+            // background-image: linear-gradient(-45deg, #cb9b72 0%, #ddb592 100%);
+            @include theme.property(color, 'button-text');
+        }
+    }
+
+    &--outlined {
+        @include theme.property(color, 'button-text');
+        @include theme.property(border-color, 'secondary-level-button');
+        @include secondary-level-button-bg-states($root);
+    }
+
+    &--outlined-red {
+        @include theme.property(color, 'error');
+        @include theme.property(border-color, 'delete-line');
+        @include theme.property(background-color, 'text-background');
+        &:hover:not(#{$root}--disabled-on-appearance) {
+            @include theme.property(background-color, 'delete-line', $alpha: 4);
+            @include theme.property(color, 'error');
+        }
+
+        &:active:not(#{$root}--disabled-on-appearance) {
+            @include theme.property(background-color, 'delete-line', $alpha: 8);
+        }
+
+        &:disabled {
+            @include theme.property(background-color, 'text-background');
+            opacity: 0.4;
+        }
+    }
+
+    &--disabled-on-appearance {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    &--with-leading-icon {
+        padding-left: 12px;
+        padding-right: 16px;
+        display: flex;
+    }
+
+    &--call-to-action {
+        text-align: center;
+        padding: 7px 12px;
+        @include typography.typography('headline5');
+    }
+
+    &--dense {
+        padding: 2px 8px;
+        min-width: 64px;
+    }
+
+    &__text {
+        color: inherit;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        display: block;
+    }
+
+    &__icon {
+        width: 14px;
+        height: 14px;
+        margin: auto 8px auto 0;
+        flex: 0 0 14px;
+
+        :global {
+            .svg-fill--tone1,
+            .svg-fill--tone2 {
+                color: inherit;
+                fill: currentColor;
+            }
+
+            .svg-stroke--tone1,
+            .svg-stroke--tone2 {
+                color: inherit;
+                stroke: currentColor;
+            }
+        }
+    }
+}
+
+.ghost-button {
+    $root: &;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 7px 12px;
+    background-clip: border-box;
+    background-origin: border-box;
+    border: 1px dashed;
+    @include theme.property(border-color, 'active');
+    @include theme.property(color, 'active');
+    @include secondary-level-button-bg-states($root);
+    border-radius: 2px;
+    display: flex;
+
+    &__icon {
+        width: 24px;
+        height: 24px;
+        margin: auto;
+        :global {
+            .svg-fill--tone1,
+            .svg-fill--tone2 {
+                color: inherit;
+                fill: currentColor;
+            }
+
+            .svg-stroke--tone1,
+            .svg-stroke--tone2 {
+                color: inherit;
+                stroke: currentColor;
+            }
+        }
+    }
+}

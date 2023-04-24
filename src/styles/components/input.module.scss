@@ -1,0 +1,282 @@
+@use './mixins/input';
+@use '../mixins/theme';
+@use '../mixins/typography';
+
+.input {
+    @include input.base();
+    padding: 8px 12px;
+    @include typography.typography('body1');
+    @include theme.property(color, 'title-text');
+    width: 100%;
+
+    &:hover {
+        @include theme.property(border-color, 'active');
+        // @include input.box-shadow;
+    }
+
+    &:focus {
+        @include input.box-shadow;
+        @include theme.property(border-color, 'active');
+    }
+
+    &::placeholder {
+        @include theme.property(color, 'tips-text');
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &:placeholder-shown {
+        text-overflow: ellipsis;
+    }
+
+    &::-webkit-input-placeholder {
+        @include theme.property(color, 'tips-text');
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &--dense {
+        padding: 5px 12px;
+    }
+
+    &--has-leading {
+        padding-left: 32px;
+    }
+
+    &--has-trailing {
+        padding-right: 32px;
+    }
+}
+
+.label {
+    display: flex;
+    $root: &;
+
+    &__text {
+        display: block;
+        @include typography.typography('body1');
+        @include theme.property(color, 'primary-text');
+        flex: 0 0 auto;
+        margin: auto 8px auto 0;
+    }
+
+    &--hidden {
+        #{$root}__text {
+            display: none;
+        }
+    }
+}
+
+.input-wrapper {
+    position: relative;
+    pointer-events: auto;
+
+    &__positioner {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        pointer-events: none;
+        position: absolute;
+        z-index: 1;
+    }
+
+    &__leading {
+        display: block;
+        margin: auto auto auto 12px;
+        width: 16px;
+        flex: 0 0 16px;
+        @include typography.typography('body1');
+        overflow: hidden;
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, 'secondary-text');
+            }
+
+            .svg-stroke--tone1 {
+                @include theme.property(color, 'secondary-text');
+            }
+        }
+    }
+
+    &__trailing {
+        display: block;
+        margin: auto 12px auto auto;
+        width: 16px;
+        flex: 0 0 16px;
+        @include typography.typography('body1');
+        overflow: hidden;
+
+        @include theme.property(color, 'primary-text');
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, 'dropdown');
+            }
+
+            .svg-stroke--tone1 {
+                @include theme.property(stroke, 'dropdown');
+            }
+        }
+    }
+}
+
+.input-with-actionable-leading-and-trailing {
+    @include input.base();
+    $root: &;
+
+    &:not(#{$root}--disabled):hover {
+        @include theme.property(border-color, 'active');
+    }
+
+    &--disabled {
+        @include theme.property(border-color, 'split-line');
+        @include theme.property(background-color, 'disabled-bg');
+        @include theme.property(color, 'tips-text');
+    }
+
+    &--focused {
+        @include input.box-shadow;
+        @include theme.property(border-color, 'active');
+    }
+
+    &::placeholder {
+        @include theme.property(color, 'tips-text');
+    }
+
+    &--has-leading {
+        #{$root}__native-input {
+            padding-left: 4px;
+            &:disabled {
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    &--has-trailing:not(#{$root}--has-input-trailing) {
+        #{$root}__native-input {
+            padding-right: 4px;
+        }
+    }
+
+    &--has-input-trailing {
+        #{$root}__native-input {
+            flex: 0 0 auto;
+            padding-right: 8px;
+        }
+    }
+
+    &__leading {
+        display: block;
+        margin: auto auto auto 12px;
+        width: 16px;
+        flex: 0 0 16px;
+        @include typography.typography('body1');
+        overflow: hidden;
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, 'secondary-text');
+            }
+
+            .svg-stroke--tone1 {
+                @include theme.property(color, 'secondary-text');
+            }
+        }
+    }
+
+    &__trailing {
+        display: block;
+        margin: auto 12px auto auto;
+        width: 16px;
+        flex: 0 0 16px;
+        @include typography.typography('body1');
+        overflow: hidden;
+
+        @include theme.property(color, 'primary-text');
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, 'dropdown');
+            }
+
+            .svg-stroke--tone1 {
+                @include theme.property(stroke, 'dropdown');
+            }
+        }
+    }
+
+    &__clear-button {
+        cursor: pointer;
+
+        :global {
+            .svg-fill--tone1 {
+                @include theme.property(fill, 'clear-icon');
+            }
+
+            .svg-stroke--tone1 {
+                @include theme.property(stroke, 'clear-icon');
+            }
+        }
+    }
+
+    &__native-input {
+        height: 38px;
+        min-width: 0; // Fixes flex issues on Firefox
+        border: none;
+        border-radius: 0;
+        background: none;
+        appearance: none;
+        padding: 0 12px;
+        margin: 0;
+        @include typography.typography('body1');
+        flex: 1;
+
+        // Remove built-in trailing clear icon on IE11. IE vendor prefixes cannot
+        // be combined with other vendor prefixes like the webkit one below.
+        &::-ms-clear {
+            display: none;
+        }
+
+        // Remove built-in datepicker icon on Chrome
+        &::-webkit-calendar-picker-indicator {
+            display: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        // Remove red outline on firefox
+        &:invalid {
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            @include theme.property(color, 'tips-text');
+        }
+    }
+
+    &__input-trailing {
+        border: none;
+        border-radius: 0;
+        background: none;
+        flex: 1;
+        margin: auto 8px auto 0;
+        @include theme.property(color, 'tips-text');
+        @include typography.typography('body1');
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    &--dense {
+        #{$root}__native-input {
+            height: 30px;
+        }
+    }
+}

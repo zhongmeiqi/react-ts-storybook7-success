@@ -1,0 +1,23 @@
+@use '../../mixins/theme';
+@use '../../mixins/typography';
+
+@mixin base {
+    height: 40px;
+    @include theme.property(background-color, 'text-background');
+    border: 1px solid;
+    @include theme.property(border-color, 'input-border');
+    @include theme.property(caret-color, 'active');
+    border-radius: 2px;
+    display: flex;
+    width: auto;
+    box-sizing: border-box;
+
+    &--dense {
+        height: 32px;
+    }
+}
+
+@mixin box-shadow {
+    box-shadow: 0px 0px 4px 0px rgba(10, 42, 97, 0.2);
+    transition: box-shadow 175ms;
+}

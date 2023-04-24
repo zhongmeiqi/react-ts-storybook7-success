@@ -1,0 +1,92 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+import { bg, text, line, btn, others, alert, colors } from "./Color";
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="theme.color.bg"
+    subtitle="Some of the backgrounds"
+    colors={Object.fromEntries(
+      bg.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+  <ColorItem
+    title="theme.color.text"
+    subtitle="Some of the texts"
+    colors={Object.fromEntries(
+      text.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+  <ColorItem
+    title="theme.color.line"
+    subtitle="Some of the lines"
+    colors={Object.fromEntries(
+      line.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+  <ColorItem
+    title="theme.color.btn"
+    subtitle="Some of the buttons"
+    colors={Object.fromEntries(
+      btn.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+  <ColorItem
+    title="theme.color.alert"
+    subtitle="Some of the alerts"
+    colors={Object.fromEntries(
+      alert.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+  <ColorItem
+    title="theme.color.colors"
+    subtitle="Some of the colors"
+    colors={Object.fromEntries(
+      colors.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+  <ColorItem
+    title="theme.color.others"
+    subtitle="Other color definitions"
+    colors={Object.fromEntries(
+      others.map((b) => [
+        b,
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--gtw-" + b
+        ),
+      ])
+    )}
+  />
+</ColorPalette>
+
